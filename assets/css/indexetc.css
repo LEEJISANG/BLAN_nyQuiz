@@ -1,0 +1,480 @@
+@charset "UTF-8";
+
+/* main start */
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.main-link-div {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.main-link-block {
+  display: inline-block;
+  margin: auto 0rem;
+}
+
+.test-main-img {
+  margin: 0rem auto 0.5rem;
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  cursor: pointer;
+}
+
+.PPL-Ads-link {
+  margin: 3rem auto 0.5rem;
+  max-width: 414px;
+  cursor: pointer;
+}
+
+.to-buymeacoffee-btn {
+  background-color: gold;
+  font-size: 1rem;
+  font-family: var(--title-font);
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 3px;
+  height: 4.5rem;
+  width: 19rem;
+  margin: 0.5rem auto 3rem;
+  display: block;
+}
+
+/* Each Lang Icons */
+.to-other-lang-test-banner-text {
+  display: inline;
+  margin: 0 0.3rem;
+}
+
+.go-to-each-language-main {
+  margin: 2rem auto;
+  display: block;
+  font-family: var(--title-font);
+}
+
+/* intro start */
+
+.intro {
+  margin: 0rem auto 2.5rem;
+  padding: 0rem 0rem;
+}
+
+.intro-main-img {
+  margin: 0rem auto;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  font-family: var(--title-font);
+  cursor: pointer;
+}
+
+.go-to-each-language {
+  display: block;
+  font-family: var(--title-font);
+}
+
+.language-icon {
+  display: inline;
+  width: 2rem;
+}
+
+.test-intro-with-friend {
+  margin: 1.5rem auto 1rem;
+  font-family: var(--title-font);
+}
+
+.test-intro-with-friend-img {
+  cursor: pointer;
+}
+
+.test-intro-to-main-img {
+  cursor: pointer;
+}
+
+.start-btn-participants {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: var(--title-font);
+  font-weight: 800;
+}
+
+.intro-footer {
+  margin: 3rem auto;
+  font-family: var(--title-font);
+  font-weight: 800;
+  color: #cecfd0;
+}
+
+/* unselect clicked btn */
+.btn-outline-dark:hover {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+.answer-option-img {
+  margin: 0rem auto 2rem;
+  max-width: 414px;
+}
+
+/* for DogSounds Test */
+.dog-sounds-input-div {
+  position: relative;
+}
+
+.dog-sounds-input-img {
+  width: 20rem;
+}
+
+.go-to-record-img {
+  cursor: pointer;
+}
+
+.go-to-analysis-img {
+  cursor: pointer;
+}
+
+.dog-sound-record-start-btn {
+  background-color: #f7392e;
+  width: 7rem;
+  height: 7rem;
+  border: none;
+  border-radius: 100%;
+  margin: 1rem auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.dog-sounds-input {
+  border: 0.5px solid lightgray;
+  font-size: 20px;
+  height: 3rem;
+  width: 15rem;
+  margin: 0rem auto 2rem;
+}
+
+.dog-sounds-input:focus,
+.dog-sounds-input:active,
+.dog-sounds-input:visited,
+.dog-sounds-input:hover {
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+}
+
+.dog-sound-record-title-img {
+  width: 20rem;
+  margin: 3rem auto;
+}
+
+.audio-react-recorder {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.audio-react-recorder__canvas {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.dog-sounds-guidance {
+  color: #cecfd0;
+}
+
+/* for FacialExpressionAnalyzer */
+.face-image-uploader {
+  margin: 1rem auto;
+  max-width: 15rem;
+}
+
+.fileContainer {
+  height: 20rem;
+  background-color: white;
+}
+
+.face-image-option-div {
+  color: grey;
+  margin: 3rem auto 0rem;
+  font-size: 1.3rem;
+}
+
+.face-image-option {
+  margin: 0rem 0.4rem;
+}
+
+/* for birthday Calculating */
+.birth-title {
+  margin: 2rem auto;
+}
+.birthCalcMonth {
+  width: 10rem;
+  height: 1.5rem;
+  margin: 0.5rem auto;
+}
+.birthCalcDay {
+  width: 10rem;
+  height: 1.5rem;
+  margin: 0.5rem auto;
+}
+.birth-input {
+  font-family: var(--title-font);
+  margin: 5rem 2rem;
+}
+
+.birthday-submit-btn {
+  width: 10rem;
+  height: 3rem;
+  margin: 3rem 1rem;
+  border-radius: 5%;
+  font-family: var(--title-font);
+}
+
+.private-info-desc {
+  color: #cecfd0;
+}
+
+/* for storyTelling Quiz */
+.storytelling-img {
+  height: auto;
+  width: 23rem;
+  margin: 1rem auto;
+}
+
+/* loading start */
+
+.loading {
+  margin-top: 12rem;
+  margin-bottom: 3rem;
+}
+
+.loading-upper {
+  /* for strange number display, color change */
+  color: var(--bg-color);
+}
+
+/* for DualMBTI Quiz */
+.dualColor-title {
+  margin: 2rem auto;
+}
+.dualColor-input {
+  font-family: var(--title-font);
+  margin: 5rem auto;
+}
+.dualColor-input-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dualColor-eachForm {
+  margin: 0rem 1rem;
+}
+
+.dualMBTI-submit-btn {
+  margin: 3rem 1rem;
+}
+
+.to-personalColor-test-btn {
+  margin: 0rem auto 2rem;
+}
+
+/* result start */
+.result {
+  max-width: 100%;
+  margin: 0rem 1rem 1rem 1rem;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-value {
+  margin: 0rem 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-break: normal;
+}
+
+.result-card {
+  width: 20rem;
+}
+
+.result-title {
+  font-family: var(--title-font);
+  font-size: 1.2rem;
+}
+
+.result-p {
+  text-align: left;
+  font-family: var(--content-font);
+  white-space: pre-line;
+  word-break: keep-all;
+  font-size: 0.9rem;
+  margin: 1.5rem auto;
+}
+
+.result-header {
+  margin: 5rem auto 2rem;
+  font-family: var(--title-font);
+  margin: 1rem 0.5rem;
+  color: var(--font-color);
+}
+
+.result-img {
+  height: auto;
+  width: 23rem;
+  margin: 0rem auto 0rem;
+  font-family: var(--title-font);
+  color: var(--font-color);
+}
+
+.result-user-pic {
+  width: 20rem;
+  margin: 1rem auto;
+}
+
+.facialExpressionAnalyzer-title-img {
+  width: 27rem;
+  margin: 1rem auto 0rem;
+}
+
+.result-ment {
+  position: relative;
+  margin: 1rem auto;
+  width: 20rem;
+  height: 4rem;
+  color: #7a7a7a;
+  font-weight: bold;
+  text-align: center;
+  line-height: 4rem;
+  background: #b3b4b3;
+}
+
+.result-ment:after {
+  border-top: 0px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #b3b4b3;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 200px;
+}
+
+/* in Result Page for PPL banner */
+.ppl-banner-img {
+  width: 23rem;
+  margin: 0rem auto;
+  display: block;
+}
+
+/* in Result Page for Personal Color Test */
+.to-peopleColor-test-banner-text {
+  font-family: var(--title-font);
+  font-weight: 800;
+}
+.to-peopleColor-test-banner-img {
+  max-width: 414px;
+}
+
+.to-personalColorOut-test-banner-text {
+  display: inline;
+  margin: 0 0.3rem;
+}
+
+.share-title {
+  font-family: var(--title-font);
+  font-size: 1.2rem;
+  margin: 0rem 1rem 1.5rem;
+  color: var(--font-color);
+}
+
+.share {
+  font-family: var(--title-font);
+  display: inline;
+  margin: 1rem 0rem 0rem;
+}
+
+.share-btn-img {
+  cursor: pointer;
+}
+
+.re-test-btn {
+  font-family: var(--title-font);
+  display: inline;
+  margin: 3rem 0rem;
+}
+
+.re-test-btn-img {
+  cursor: pointer;
+}
+
+.back-to-main {
+  font-family: var(--title-font);
+  display: inline;
+  margin: 1.5rem 1rem 0rem;
+}
+
+.back-to-main-btn-img {
+  cursor: pointer;
+}
+
+/* result guide start */
+
+.guide-desc {
+  color: var(--font-color);
+  margin: 10rem 5rem 5rem 5rem;
+}
+
+/* horizontalScrolling */
+.horizontal-scrolling {
+  margin: 3rem 1rem;
+}
+
+.menu-item {
+  margin: 1rem 2rem;
+  user-select: none;
+  cursor: pointer;
+  border: 1px transparent solid;
+}
+
+.scroll-menu-arrow {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/* .scroll-menu-arrow--disabled {
+  visibility: hidden;
+} */
+
+.menu-item-wrapper {
+  width: 15rem;
+}
+
+.menu-item-wrapper:focus,
+.menu-item-wrapper:active,
+.menu-item-wrapper:visited,
+.menu-item-wrapper:hover {
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}

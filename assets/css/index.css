@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Do+Hyeon&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+:root {
+	--bg-color: #ededed;
+	--font-color: black;
+	--title-font: sans-serif, "NanumSquare", "Noto Sans";
+	--content-font: sans-serif, "NanumSquare", "Noto Sans";
+}
+
+body {
+	height: auto;
+	display: block;
+	/* position: -webkit-sticky; */
+	background-color: var(--bg-color);
+	text-align: center;
+	justify-content: center;
+}
+
+/* intro start */
+
+.intro {
+  margin: 0rem auto 2.5rem;
+  padding: 0rem 0rem;
+}
+
+.intro-main-img {
+  margin: 0rem auto;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  font-family: var(--title-font);
+  cursor: pointer;
+}
+
+/* question & answer start */
+.question {
+	margin: 3rem 3rem 2rem 3rem;
+	color: var(--font-color);
+	font-family: var(--title-font);
+}
+
+.question-p {
+	/* white space for line break */
+	white-space: pre-line;
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+.option-btn-div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.option-btn:focus, .option-btn:active, .option-btn:visited, .option-btn:hover
+	{
+	outline: none;
+	outline-offset: none;
+	box-shadow: none;
+	background-color: var(--bg-color);
+	color: var(--font-color);
+}
+
+.option-btn {
+	background-color: var(--bg-color);
+	font-family: var(--content-font);
+	font-weight: bolder;
+	font-size: 0.8rem;
+	font-weight: 800;
+	height: 9em;
+	width: 20rem;
+	margin: 0.5em;
+	word-break: keep-all;
+	white-space: pre-line;
+	cursor: pointer;
+}
+
+.question-progress {
+	margin: 3rem 5rem;
+	position: relative;
+	display: block;
+}
+
+.progress-bar {
+	margin-bottom: 2rem;
+}
+
+.question-count {
+	margin-top: 1rem;
+	color: var(--font-color);
+	font-size: 1.3rem;
+	font-family: var(--title-font);
+	font-weight: 800;
+}
+
+.content {
+	margin-top: 300px;
+}
