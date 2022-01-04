@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLAN Invitation</title>
+
+<!-- Style-->
+<link rel="stylesheet" href="../assets/css/index.css">
+
+<!-- Script-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.content:nth-child(2)').hide();
+		counter();
+	});
+	
+	function counter() {
+		var setDate = new Date("Jan 10,2022,00:00:00");
+		var setDateYear = setDate.getFullYear();
+		var setDateMonth = setDate.getMonth() + 1;
+		var setDateDay = setDate.getDate();
+		var dday = new Date("Jan 10,2022,00:00:00").getTime(); //디데이
+		var interval = setInterval(function() {
+			var now = new Date(); //현재 날짜 가져오기
+			var distance = dday - now;
+			var day = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hour = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minute = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var second = Math.floor((distance % (1000 * 60)) / 1000);
+			hour < 10 ? '0' + hour : hour;
+			minute < 10 ? '0' + minute : minute;
+			second < 10 ? '0' + second : second;
+			$('.count').html(setDateYear + '년 ' + setDateMonth + '월 ' + setDateDay + '일까지 <br/>' + day + '일 ' + hour + '시간 ' + minute + '분 ' + second + '초 남았습니다.');
+			if (distance <= 0) {
+				$('.content:nth-child(1)').hide();
+				$('.content:nth-child(2)').show();
+				clearInterval(interval);
+			}
+		}, 1000);
+	}
+</script>
+</head>
+<body>
+	<div class="root">
+		<div class="content">
+			<span style="font-weight: bold; font-size: 20px;" class="count"></span>
+		</div>
+		<div class="content">
+			<span style="font-weight: bold; font-size: 20px;"><a href="../index.html">링크 바로가기</a></span>
+		</div>
+	</div>
+</body>
+</html>
